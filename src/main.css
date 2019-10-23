@@ -5,6 +5,12 @@ body,html {
   overflow: hidden;
 }
 
+@supports (-webkit-appearance:none) {
+  body,html {
+    min-height: calc(100vh - 56px);
+  }
+}
+
 a {
   text-decoration: none;
 }
