@@ -2,7 +2,7 @@
 
 body,html {
   max-width: 100vw;
-  height: -webkit-fill-available, 100vh;
+  height: -webkit-fill-available;
   overflow: hidden;
 }
 
@@ -17,7 +17,6 @@ a {
   background: #E6E7E8;
   height: 100%;
 }
-
 
 .background {
   position: absolute;
