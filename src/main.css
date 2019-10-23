@@ -1,9 +1,9 @@
 *{ margin : 0; }
+
 body,html {
   max-width: 100vw;
-  max-height: 100vh;
+  height: -webkit-fill-available;
   overflow: hidden;
-  
 }
 
 a {
@@ -14,9 +14,10 @@ a {
   display: flex;
   flex-direction: column;
   position : relative;
-  height: 100vh;
   background: #E6E7E8;
+  height: 100%;
 }
+
 
 .background {
   position: absolute;
@@ -28,7 +29,7 @@ a {
 
 .hello {
   z-index: 1;
-  padding: 36px 24px;
+  padding: 28px 24px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size : 32px;
@@ -69,6 +70,7 @@ a {
   0 70px 50px -30px rgba(0,0,0,0.1),
   0 40px 60px -5px rgba(203,14,40,0.1);
   opacity : 0;
+  will-change : transform, opacity;
 }
 
 .button__icon {
