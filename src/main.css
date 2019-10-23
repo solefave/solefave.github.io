@@ -2,8 +2,8 @@
 
 body,html {
   max-width: 100vw;
-  height: -webkit-fill-available;
-  overflow: hidden;
+  max-height: 100vh;
+  overflow: hidden; 
 }
 
 a {
@@ -14,10 +14,9 @@ a {
   display: flex;
   flex-direction: column;
   position : relative;
+  height: 100vh;
   background: #E6E7E8;
-  height: 100%;
 }
-
 
 .background {
   position: absolute;
