@@ -3,6 +3,7 @@
 body,html {
   max-width: 100vw;
   height: -webkit-fill-available;
+  height : 100vh;
   overflow: hidden;
 }
 
