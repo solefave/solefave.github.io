@@ -3,12 +3,7 @@ body,html {
   max-width: 100vw;
   max-height: 100vh;
   overflow: hidden;
-}
-
-@supports (-webkit-appearance:none) {
-  body,html {
-    min-height: calc(100vh - 56px);
-  }
+  
 }
 
 a {
